@@ -1,6 +1,6 @@
 # Test PT Ifabula
 
-Jawaban dari soal PT Ifabula.
+Jawaban dari soal test PT Ifabula.
 
 ## Aplikasi yang dibutuhkan
 - NodeJS 12.x
