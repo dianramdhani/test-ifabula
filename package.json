@@ -2,6 +2,9 @@
   "name": "test-ifabula",
   "version": "1.0.0",
   "description": "Test PT Ifabula",
+  "scripts": {
+    "serve1": "http-server ."
+  },
   "main": "index.js",
   "author": "Dian Ramdhani Lubis",
   "license": "MIT",
