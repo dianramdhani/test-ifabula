@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Renderer</title>
+    <title>Remove Key</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <style>
         .card {
@@ -19,7 +19,7 @@
     </style>
 </head>
 
-<body ng-app="AppTest" ng-controller="JSONRendererCtrl">
+<body ng-app="AppTest" ng-controller="RemoveKeyCtrl">
     <div class="card mx-auto my-5">
         <h4 class="card-header">List User</h4>
         <div class="card-body">
@@ -65,7 +65,7 @@
     <script src="./node_modules/angular/angular.min.js"></script>
     <script>
         const app = angular.module('AppTest', []);
-        app.controller('JSONRendererCtrl', function ($scope, $http) {
+        app.controller('RemoveKeyCtrl', function ($scope, $http) {
             $scope.users = [];
             $http.get('http://jsonplaceholder.typicode.com/posts')
                 .then(({ data }) => {
