@@ -12,7 +12,7 @@ Jalankan perintah
 ```bash
 yarn
 ```
-## Menjalanakan project untuk nomor 1-5
+## Menjalankan project
 Jalankan perintah
 
 ```bash
