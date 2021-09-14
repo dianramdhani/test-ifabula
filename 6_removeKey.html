@@ -10,7 +10,7 @@
     <style>
         .card {
             width: 100%;
-            max-width: 50rem;
+            max-width: 60rem;
         }
 
         th {
@@ -36,21 +36,25 @@
                     <tr ng-repeat="user in users track by $index">
                         <td>
                             {{user.id}}
+                            <br>
                             <button class="btn btn-danger btn-sm" ng-if="user.id"
                                 ng-click="removeKey($index, 'id')">Remove Key</button>
                         </td>
                         <td>
                             {{user.userId}}
+                            <br>
                             <button class="btn btn-danger btn-sm" ng-if="user.userId"
                                 ng-click="removeKey($index, 'userId')">Remove Key</button>
                         </td>
                         <td>
                             {{user.title}}
+                            <br>
                             <button class="btn btn-danger btn-sm" ng-if="user.title"
                                 ng-click="removeKey($index, 'title')">Remove Key</button>
                         </td>
                         <td>
                             {{user.body}}
+                            <br>
                             <button class="btn btn-danger btn-sm" ng-if="user.body"
                                 ng-click="removeKey($index, 'body')">Remove Key</button>
                         </td>
@@ -60,8 +64,6 @@
         </div>
     </div>
 
-    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/angular/angular.min.js"></script>
     <script>
         const app = angular.module('AppTest', []);
