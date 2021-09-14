@@ -49,7 +49,8 @@
             $scope.users = [];
             $http.get('http://jsonplaceholder.typicode.com/posts')
                 .then(({ data }) => {
-                    $scope.users = data;
+                    $scope.users = data.slice(0, 10);
+                    $scope.users;
                 });
         });
     </script>
