@@ -1,0 +1,11 @@
+{
+    "nama": "Dian Ramdhani Lubis",
+    "nik": "123123123",
+    "alamat": {
+        "jalan": "Gg. Test No. 123 RT. 06 RW. 04",
+        "kelurahan": "Test",
+        "kecamatan": "test",
+        "kota": "Cimahi",
+        "kodePos": "40123"
+    }
+}
