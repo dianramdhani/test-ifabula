@@ -12,8 +12,8 @@
     "@popperjs/core": "^2.10.1",
     "angular": "1.8.2",
     "bootstrap": "^5.1.1",
+    "crypto-js": "^4.1.1",
     "express": "^4.17.1",
-    "http-server": "^13.0.2",
-    "sha256": "^0.2.0"
+    "http-server": "^13.0.2"
   }
 }
